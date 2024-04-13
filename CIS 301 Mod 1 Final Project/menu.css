@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;   
+    max-width: 100%;
+    text-decoration: none;
+    height: auto;
+}
+
+body {
+    background: rgb(27, 27, 27);
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('table_of_food.jpg');
+    background-size: cover;
+    width: 100vw; 
+    height: 33vh;
+    text-align: center;
+  }
+
+  .opacity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0, 0.3);
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 3.0rem;
+    text-transform: uppercase;
+    width: 100vw; 
+    height: 33vh;
+    text-align: center;
+  }
+
+  .mHead {
+    margin-bottom: 24px;
+  }
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+ }
+ 
+
+.card {
+    background-color: crimson;
+    color: white;
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card-image {
+    background-color: crimson;
+    height: 60%;
+    margin-bottom: 10px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+
+}
+
+/* card images */
+.item1 {
+    background-image: url('Burger.jpg');
+}
+
+.item2 {
+    background-image: url('chicken_sandwich.jpg');
+}
+
+.item3 {
+    background-image: url('wings.jpg');
+}
+
+.item4 {
+    background-image: url('fries.jpg');
+}
+
+.item5 {
+    background-image: url('Drinks.jpg');
+}
+
+.item6 {
+    background-image: url('Milkshake.jpg');
+}
+
+/* Nav Style */
+.navBar{
+    background: rgb(27, 27, 27); 
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.navDiv {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.navH a{
+    display: block;
+    font-size: 30px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600; 
+    color: white;
+    background-color: crimson;
+    border-radius: 15px;
+    padding: 0.1em;
+    margin: 0.2em;
+
+}
+li {
+    list-style: none; 
+    display: inline-block;
+}
+li a {
+    font-family: sans-serif;
+    color: crimson; 
+    font-size: 25px; 
+    font-weight: 600; 
+    margin-right: 25px;
+}
+
+.card h2 {
+    padding: 0 0 3px 6px;
+    
+}
+
+.card menu {
+    padding-left: 12px;
+}
+
+.card li {
+    padding-bottom: 3px;
+}
+
+/* footer styles */
+.footerContainer{
+    width: 100%;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: crimson;
+    margin: 12px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 1em;
+    color: black;
+    opacity: 0,9;
+}
+
+/* Hover affect on social media icon */
+.socialIcons a:hover{
+background-color: black;
+transition: 0.5s;
+}
+.socialIcons a:hover i{
+color: crimson;
+transition: 0.5s;
+}
+
+.footerBottom{
+background-color: rgb(27, 27, 27);
+padding: 15px;
+text-align: center;
+}
+.footerBottom p{
+font-family:Georgia, 'Times New Roman', Times, serif;
+color: white;
+font-size: smaller;
+}
+
+.footerBottom a{
+color: crimson;
+font-weight: bold;
+}
+.designer{
+font-family: sans-serif;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-weight: 400;
+margin: 0px 5px;
+color: crimson;
+font-weight: bolder;
+}
+
+
+
+/* Footer style */
+
